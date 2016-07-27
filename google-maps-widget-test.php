@@ -92,7 +92,7 @@
 
             <div id='map-canvas'> </div>
 
-            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true&key=AIzaSyDiyY2Wi8ufBF_WYGSDSm5AqjXjesmiskY"></script>
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true&key=insert_key_here"></script>
 
             <script type="text/javascript">
                 var map = new google.maps.Map(document.getElementById('map-canvas'), {
