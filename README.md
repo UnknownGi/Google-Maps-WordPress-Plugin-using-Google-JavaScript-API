@@ -30,11 +30,11 @@ It must be added @line-95
 
 For **_XAMPP_** Users
 - **Create** a Folder called *google-maps-widget-test* at **./XAMPP/htdocs/WordPress-Website/wp-content/plugins/**
-- **Copy** both *PHP files* to **./XAMPP/htdocs/WordPress-Website/wp-content/plugins/google-maps-widget-test**
+- **Copy** *PHP file* to **./XAMPP/htdocs/WordPress-Website/wp-content/plugins/google-maps-widget-test**
 
 OR For **_WAMP_** Users
 - **Create** a Folder called *google-maps-widget-test* at **./WAMP/www/WordPress-Website/wp-content/plugins/**
-- **Copy** both *PHP files* to **./WAMP/www/WordPress-Website/wp-content/plugins/google-maps-widget-test**
+- **Copy** *PHP file* to **./WAMP/www/WordPress-Website/wp-content/plugins/google-maps-widget-test**
 
 Then
 - **Open** any Browser
