@@ -64,9 +64,6 @@ Jing Video Link: http://screencast.com/t/00cHXzfG
 This is how your website will be displaying Google Maps using this plugin. Your Theme will decide how this Widget will look like.
 ![Google Maps Widget](http://i.imgur.com/eypmk9t.png)
 
-## Note
-
-The **WP_Widget** Class uses a **_deprecated_** constructor and can only be used if your **Debug** is set to **False** in **_wp-config.php_** file.
 
 ## References
 
