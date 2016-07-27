@@ -36,13 +36,13 @@
     }
 
     class gm_widget extends WP_Widget {
-        function gm_widget() {
+        function __construct() {
             $widgets_ops = array(
                 'classname' => 'gm-widget-class',
                 'description' => 'Display Google Maps'
             );
             
-            $this->WP_Widget('gm-widget', 'Google Maps Widget', $widget_ops);
+            parent::__construct('gm-widget', 'Google Maps Widget', $widgets_ops);
         }
         
         function form($instance) {
@@ -92,7 +92,7 @@
 
             <div id='map-canvas'> </div>
 
-            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true&key=insert_key_here"></script>
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true&key=INSERT_KEY_HERE"></script>
 
             <script type="text/javascript">
                 var map = new google.maps.Map(document.getElementById('map-canvas'), {
